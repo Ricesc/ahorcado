@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body{
+    margin: 0;
+    background: url(https://wallpapers.com/images/featured/cei80uravrnl6ltm.jpg) no-repeat center;
+    background-size: cover;
+    font-family: 'Acme', sans-serif;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #181e50d3;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 3px 0 #F7ACD5, -2px 0 #F7ACD5, 0 2px #F7ACD5, 0 -2px #F7ACD5,
+    1px 1px #F7ACD5, -1px -1px #F7ACD5, 1px -1px #F7ACD5, -1px 1px #F7ACD5;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+}
+
+main {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    transform: translate(0, 60%);
+    border: 4px solid #181e50;
+    background: rgba(255,255,255,.7);
+    display: flex;
+    gap: 30px;
+}
+
+#imagen {
+    width: 200px;
+    background: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-cloud-background_41066-1919.jpg?w=2000) no-repeat center;
+    background-size: cover;
+}
+
+#palabra {
+    height: 3em;
+}
+
+#adivinar span {
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    width: 30px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block;
+}
+
+#letras {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+button{
+    font-size: 15px;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #181e50;
+    cursor: pointer;
+}
+
+#letras button {
+    width: 28px;
+    padding: 6px 0;
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #181e50;
+}
+
+button:hover {
+    background-color: rgb(233, 232, 232);
+    overflow: hidden;
+}
+ 
+button:active {
+    background-color: white;
+}
